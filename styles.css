@@ -21,7 +21,7 @@ body {
 }
 
 .hero {
-    font-family: 'Lobster', cursive;
+    
     text-align: center;
     color: #f7f7f7;
     padding-top: 75px;
@@ -49,6 +49,15 @@ body {
     padding: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.font1 {
+    font-family: 'Lobster', cursive;
+}
+
+.font2 {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 @media (max-width: 950px) {
@@ -108,4 +117,35 @@ body {
     .skills h3 {
         font-size: 16px;
     }
+}
+
+/* Portfolio */
+
+.portfolio {
+    text-align: center;
+    background-color: #386475;
+    margin-top: -40px;
+    padding-top: 80px;
+    color: #f7f7f7;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.portfolio h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.portfolioItem img {
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.portfolioItem {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
