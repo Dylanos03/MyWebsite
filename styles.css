@@ -100,13 +100,7 @@ body {
     flex-grow: 4;
 }
 
-.skill {
-    flex-grow: 1;
-}
 
-.skill:hover {
-    flex-grow: 4;
-}
 
 @media (max-width: 950px){
     .skillBoxes img{
