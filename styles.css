@@ -30,6 +30,7 @@ body {
 
 .hero h1 {
     font-size: 36px;
+    transition: all 1s ease;
 }
 
 .hero p {
@@ -50,6 +51,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     cursor: pointer;
+
 }
 
 .font1 {
@@ -95,6 +97,15 @@ body {
 
 .skillBoxes img {
     max-width: 300px;
+    flex-grow: 4;
+}
+
+.skill {
+    flex-grow: 1;
+}
+
+.skill:hover {
+    flex-grow: 4;
 }
 
 @media (max-width: 950px){
