@@ -91,9 +91,18 @@
             <h1>Contact me!</h1>
         </div>
         <div>
-            <form action="https://formsubmit.co/dylanos1301@gmail.com" method="POST">
-                <input type="Text" name="name" required>
-                <input type="email" name="email" required>
+            <form action="https://formsubmit.co/dylanos1301@gmail.com" method="POST" class="forms">
+                <div>
+                    <input type="Text" name="name" placeholder="Full Name" required>
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                </div>
+                <div>
+                    <textarea type="text" name="message" required rows="10"></textarea>
+                </div>
+                
+                
                 <button type="submit">Send</button>
             </form>
         </div>

@@ -154,3 +154,28 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+/* Contact */
+
+.contact {
+    background-color: #386475;
+    padding-top: 40px;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.contact h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.contact input {
+    border-radius: 8px;
+    border-style: none;
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.forms {
+    text-align: center;
+}
