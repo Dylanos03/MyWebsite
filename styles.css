@@ -97,7 +97,6 @@ body {
 
 .skillBoxes img {
     max-width: 300px;
-    flex-grow: 4;
 }
 
 
@@ -142,7 +141,8 @@ body {
 }
 
 .portfolioItem img {
-    max-width: 300px;
+    width: 300px;
+    height: 175px;
     padding: 20px;
     border-radius: 30px;
 }
