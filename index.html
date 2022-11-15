@@ -11,7 +11,6 @@
 
 <body>
     <div class="hero">
-        <img src="Images/HeroImage-01.png" alt="Hero">
         <h1 id="heroTitle" class="font1">Hi, I'm Dylan</h1>
         <p>A Digital Media student</p>
         <button id="btn" class="button">Click me!</button>
@@ -21,37 +20,33 @@
             d="M0,192L60,208C120,224,240,256,360,261.3C480,267,600,245,720,234.7C840,224,960,224,1080,213.3C1200,203,1320,181,1380,170.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
         </path>
     </svg>
+    <div class="about">
+        <img src="Images/HeroImage-01.png" alt="Hero">
+        <div>
+            <h1>About me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda molestias corrupti numquam voluptates cupiditate illo nostrum iste quo sapiente, accusamus vitae vero dignissimos et temporibus consequuntur voluptatem dolorum nobis fuga.</p>
+        </div>
+    </div>
     <div class="skills">
         <div>
             <h1>My Skills</h1>
         </div>
         <div class="skillBoxes">
-            <div class="skill">
+            <div class="1 skill">
                 <img src="Images/Code-01.png" alt="Skill">
                 <h3>HTML/CSS/JS</h3>
             </div>
-            <div class="skill">
+            <div class="2 skill">
                 <img src="Images/Adobe-01.png" alt="Skill">
                 <H3>Adobe Tools</H3>
             </div>
-            <div class="skill">
+            <div class="3 skill">
                 <img src="Images/HeroImage-01.png" alt="Skill">
                 <h3>Bootstrap</h3>
             </div>
         </div>
-        <div class="skillBoxes">
-            <div>
-                <img src="Images/Adobe-01.png" alt="Skill">
-                <h3>Skill 4</h3>
-            </div>
-            <div>
-                <img src="Images/Code-01.png" alt="Skill">
-                <h3>Skill 5</h3>
-            </div>
-            <div>
-                <img src="Images/Adobe-01.png" alt="Skill">
-                <h3>Skill 6</h3>
-            </div>
+        <div>
+            <h3>Click the skill!</h3>
         </div>
     </div>
     <div class="portfolio">
@@ -64,7 +59,8 @@
             </div>
             <div>
                 <h3>GoPedal Webpage</h3>
-                <p>Made to show our Bootstrap knowledge, this is a good example of my skills in HTML and CSS aswell as Bootstrap</p>
+                <p>Made to show our Bootstrap knowledge, this is a good example of my skills in HTML and CSS aswell as
+                    Bootstrap</p>
             </div>
         </div>
         <div class="portfolioItem">
@@ -82,7 +78,8 @@
             </div>
             <div>
                 <h3>GoPedal Webpage</h3>
-                <p>Made to show our Bootstrap knowledge, this is a good example of my skills in HTML and CSS aswell as Bootstrap</p>
+                <p>Made to show our Bootstrap knowledge, this is a good example of my skills in HTML and CSS aswell as
+                    Bootstrap</p>
             </div>
         </div>
     </div>
@@ -91,22 +88,29 @@
             <h1>Contact me!</h1>
         </div>
         <div>
-            <form action="https://formsubmit.co/dylanos1301@gmail.com" method="POST" class="forms">
+            <form action="mail.php" method="POST">
                 <div>
-                    <input type="Text" name="name" placeholder="Full Name" required>
+                    <input type="text" id="name" placeholder="Full Name" name="name" required>
                 </div>
                 <div>
-                    <input type="email" name="email" placeholder="E-mail" required>
+                    <input type="email" id="email" placeholder="E-Mail" name="email" required>
                 </div>
                 <div>
-                    <textarea type="text" name="message" required rows="10"></textarea>
+                    <textarea id="message" rows="10" name="message" placeholder="Your message"></textarea>
                 </div>
-                
-                
-                <button type="submit">Send</button>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+
+
             </form>
         </div>
     </div>
+
+    <footer>
+        <p>Made with blood, sweat and tears by Dylan</p>
+    </footer>
 
 
 
