@@ -40,6 +40,7 @@ header {
 .progressBarContainer {
     height: 8px;
     z-index: 5;
+    margin-left: 33%;
 }
 
 .progressBar {

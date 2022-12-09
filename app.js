@@ -35,12 +35,11 @@ window.addEventListener("scroll", reveal);
 
 reveal();
 
-window.onscroll = progressBar();
-
-function progressBar() {
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scrolled = (winScroll / height) * 100;
-    document.getElementById('progressBar').style.width = scrolled + '%';
-}
+window.addEventListener('scroll', function() {
+    var scrollPosition = window.pageYOffset;
+    var pageHeight = document.body.scrollHeight - window.innerHeight;
+    var scrollPercent = scrollPosition / pageHeight;
+    var progressBarWidth = scrollPercent * 100;
+    document.getElementById('progressBar').style.width = progressBarWidth + '%';
+  });
 
