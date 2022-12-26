@@ -1,5 +1,7 @@
 document.querySelector('#btn').addEventListener('click', title);
 
+const clickSkill = document.querySelector('#clickSkill');
+
 const numberOfSkills = document.querySelectorAll('.skill').length;
 
 for (var i = 0; i < numberOfSkills; i++) {
@@ -8,6 +10,7 @@ for (var i = 0; i < numberOfSkills; i++) {
         console.log('skill ' + skillNumber);
         this.classList.toggle('skillExpanded');
         this.classList.toggle('skill');
+        clickSkill.remove();
     });
 }
 
